@@ -72,6 +72,11 @@ body{
 body p{
     font-family: 'Libre Baskerville', serif;
 }
+/*home*/
+#home a{
+    text-decoration: none;
+    color: orange;
+}
 /*footer*/
 footer{
     clear: both;
