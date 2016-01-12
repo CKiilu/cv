@@ -1,22 +1,46 @@
 @import url();
+*:before;
+*:after{
+    box-sizing: border-box;
+}
 /*body*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
 .main{
-    display: block;
-    width: 55%;
+    background-color: black;
+     
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    padding-left: 40px;
+    width: 50%;
+    border-radius: 15px;
+    margin-left: 20px;
+    color: white;
+    border: 5px solid;
 }
 /*header*/
+header h1{
+     text-align: center;
+    color: orange;
+    font-size: 48px;
+}
+header a{
+    text-decoration: none;
+}
+header{
+    background-color: black;
+}
 
 /*menu*/
-.right{
-    border-radius: 15px;
-    border: 5px;
-    border-style: solid;
-}
+
 #menu{
     float: right;
     font-size: 30px;
-    margin-right: 50px;
-    background-color: gray;
+    margin-right: 25px;
     width: 40%;
 }
 #menu li{
@@ -25,9 +49,9 @@
 }
 #menu a{
     position: fixed;
-    width: 14%;
-    color: black;
-    background-color: white;
+    width: 18%;
+    color: orange;
+    background-color: black;
     border: 5px;
     border-style: double;
     display: block;
@@ -48,3 +72,16 @@
 /*about*/
 
 /*footer*/
+footer{
+    clear: both;
+}
+footer h3{
+    float: left;
+    color: orange;
+    font-size: 25px;
+}
+footer p{
+    float: right;
+    color: orange;
+    font-size: 25px;
+}
